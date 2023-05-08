@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+.App > * {
+  text-align: center;
+}
+
+.App > header {
+}
+
+.App > main {
+  flex-grow: 1;
+}
+
+.App > footer {
+}
